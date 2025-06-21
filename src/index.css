@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, #111111, #353535);
+  color: #e9e5e5;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #b191e6;
+  font-family: serif;
+}
+input {
+  background: transparent;
+  outline: none;
+  padding: 0.5rem;
+  border: 1px solid #acabab;
+  color: #acabab;
+}
+button {
+  padding: 0.4rem 0.8rem;
+  background-color: #b191e6;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
