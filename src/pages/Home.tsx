@@ -8,6 +8,9 @@ const Home = () => {
         <Link to="/todo-simple">
           <li>Todo Simple</li>
         </Link>
+        <Link to="/todo-filter-simple">
+          <li>Todo Filter Simple</li>
+        </Link>
         <Link to="/todo-filter">
           <li>Todo Filter</li>
         </Link>
