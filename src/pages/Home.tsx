@@ -14,6 +14,9 @@ const Home = () => {
         <Link to="/todo-filter">
           <li>Todo Filter</li>
         </Link>
+        <Link to="/todo-search">
+          <li>Todo Search</li>
+        </Link>
       </ul>
     </nav>
   );
