@@ -6,6 +6,7 @@ import TodoFilter from "./components/todoFilter/TodoFilter";
 import TodoFilterSimple from "./components/todoFilterSimple/TodoFilterSimple";
 import TodoSearch from "./components/todoSearch/TodoSearch";
 import Layout from "./Layout";
+import TodoEdit from "./components/todoEdit/todoEdit";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/todo-filter-simple" element={<TodoFilterSimple />} />
         <Route path="/todo-filter" element={<TodoFilter />} />
         <Route path="/todo-search" element={<TodoSearch />} />
+        <Route path="/todo-edit" element={<TodoEdit />} />
       </Route>
     </Routes>
   );
